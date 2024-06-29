@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/reserva.css">
+    <title>Reserva</title>
+</head>
+<body>
+<h1>Formulário de Reserva</h1>
+    <main>
+        <form action="">
+            <label for="nome"></label>
+            <input type="text" id="nome" placeholder="Name" required>
+            <br>
+            <br>
+            <label for="telefone"></label>
+            <input type="tel" id="telefone" placeholder="Phone" required>
+            <br>
+            <br>
+            <label for="email"></label>
+            <input type="text" id="email" placeholder="Email" required>
+            <br>
+            <br>
+            <label for="cpf"></label>
+            <input type="number" id="cpf" placeholder="Cpf" required>
+            <br>
+            <br>
+            <label for="pagamento">Payment</label>
+            <select name="" id="credito">
+                <option value="credito">Credit</option>
+                <option value="">Boleto</option>
+            </select>
+            <br>
+            <br>
+            <label for="adulto">Adults</label>
+            <select name="adulto" id="adulto">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+            </select>
+            <br>
+            <br>
+            <label for="crianca">Children</label>
+            <select name="crianca" id="crianca">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+            </select>
+            <br>
+            <br>
+            <input type="button" id="btn" value="Send">
+        </form>
+    </main>
+</body>
+</html>

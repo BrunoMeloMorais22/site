@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans&family=Lato:ital,wght@0,400;1,300;1,400&family=Lora:ital@1&family=Montserrat:ital@1&family=Onest&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@500;600&display=swap');
+
+
+body{
+    background-image: linear-gradient(to right, rgb(178, 178, 197), rgb(233, 233, 221));
+}
+h1{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 80px;
+    margin-left:  -480px;
+    font-family: 'Poppins', sans-serigf, 'Roboto Slab', serif;
+}
+
+main{
+    margin-top: 100px;
+    margin-left: 300px;
+    font-family: 'Poppins', sans-serif, 'Roboto Slab', serif;
+
+}
+small{
+    text-decoration: line-through;
+}

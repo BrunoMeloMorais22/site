@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans&family=Lato:ital,wght@0,400;1,300;1,400&family=Lora:ital@1&family=Montserrat:ital@1&family=Onest&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@500;600&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgb(178, 178, 197), rgb(233, 233, 221));
+}
+
+
+#cabeca {
+     margin-bottom: 10px;
+    overflow: auto;
+}
+
+
+#cabeca h1 {
+    margin-left: 160px;
+    float: left;
+    font-size: 1.8em;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#cabeca a{
+    float: right;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    padding: 10px;
+    margin: 15px;
+    margin-right: 20px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serigf, 'Roboto Slab', serif;
+    border: 2px solid rgb(134, 134, 134);
+}
+
+#cabeca a:hover{
+    color: rgb(45, 45, 103);
+}
+.profile-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+
+hr{
+    margin-top: -10px;
+}
+
+#content{
+    font-family: 'Poppins', sans-serigf, 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serigf, 'Roboto Slab', serif;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+#content::before {
+    content: '';
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    background-color: #777373;
+    border-radius: 50%;
+    left: 70px; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: -1;
+}
+
+p{
+    margin-left: 155px;
+    line-height: 0.5px;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serigf, 'Roboto Slab', serif;
+}
+
+.container {
+    position: fixed;
+    top: 65%; 
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+.bola {
+    width: 270px; 
+    height: 270px; 
+    background-color: rgb(142, 142, 160); 
+    border-radius: 50%; 
+}
+        
+.texto {
+    position: absolute;
+    top: 100px;
+    right: 120px; 
+    font-size: 1.8em;
+    font-family: 'Poppins', sans-serigf, 'Roboto Slab', serif;
+    white-space: nowrap;
+}
+
+
+.profile-icon img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+
+.container {
+    position: relative;
+    margin-left: 1070px;
+    top: 65%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+img {
+    margin-top: -40px;
+    margin-left: 30px;
+    height: 200px;
+    width: 300px;
+    border-radius: 190%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serigf, 'Roboto Slab', serif;
+}
+
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  
